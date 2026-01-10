@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.font-open-sans{
+font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+}
 header{
     padding-top: 16px;
     /* background-image: url("assets/hero-bg.png") */
@@ -113,4 +117,56 @@ nav button{
     background:transparent;
     border: 1px solid white;
 }
+
+
+.card-container{
+    width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.card-container div{
+    margin-bottom: 44px;
+}
+.card-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-container p{
+    font-size: 16px;
+    color: #627382;
+}
+
+.card-container .card-info{
+    display: flex;
+    justify-content: space-between;
+}
+.card-container .card-info .c{
+    width: 322px;
+    padding: 70px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.13);
+
+}
+
+.card-container .card-info .c .card-img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.card-container .card-info .c h2{
+    font-size: 24px;
+    font-weight: 600px;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.card-container .card-info .c p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
 
