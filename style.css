@@ -168,5 +168,50 @@ nav button{
     line-height: 20px;
 }
 
+.solution-container{
+    width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-container .sol-info h4{
+    font-size: 16px;
+    color:#30B868;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+.solution-container .sol-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.solution-container .sol-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    margin-bottom: 40px;
+}
+.solution-container .sol-info ul{
+   
+}
+.solution-container .sol-info ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.solution-container .sol-info ul li div{
+    font-size: 16px;
+    color: #001931;
+    font-weight:500;
+}
+
+
+
+
 
 
